@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #39b54a;
-    border-color: #39b54a;
+    background: #00b1f1;
+    border-color: #00b1f1;
     color: #FFFFFF;
 }
 
@@ -2368,8 +2368,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-services {
-    padding-top: 16.2rem;
-    padding-bottom: 13.2rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
@@ -2462,9 +2462,9 @@ html.no-csstransitions .home-content__main {
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
     .s-services {
-        padding-top: 12rem;
+        padding-top: 0rem;
     }
     .services-list .service-item:nth-child(n) {
         padding-right: 10px;
